@@ -1,17 +1,16 @@
 package com.wesley.initdemo;
-
+import com.wesley.initdemo.*;
 public class MoocLearn {
-    private String name;
-    public MoocLearn(){
-        this.name ="小心";
+    private int add(int a,int b){
+        return a+b;
     }
-    public MoocLearn(String name){
-        this.name = name;
-        System.out.println("我是"+this.name);
+    private int add(int a,int b,int c){
+        return a+b+c;
     }
 
     public static void main(String[] args) {
-        MoocLearn test = new MoocLearn("小琴");
+        MoocLearn test = new MoocLearn();
+        System.out.println(test.add(1,2)+test.add(3,4,5));
     }
 }
 
