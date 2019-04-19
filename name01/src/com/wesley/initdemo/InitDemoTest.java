@@ -17,4 +17,7 @@ public class InitDemoTest {
     public void eat(){
         System.out.println("吃猫粮");
     }
+    public void run(String name){
+        System.out.println(name+"快跑");
+    }
 }
