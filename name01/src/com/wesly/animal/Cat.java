@@ -29,4 +29,8 @@ public class Cat extends Animal{
     public void show(){
         System.out.println("我是猫咪");
     }
+
+    public void playBall() {
+        System.out.println("猫咪喜欢玩线球");
+    }
 }
