@@ -3,6 +3,7 @@ package Test001;
 
 import com.mooc.tel.Camera;
 import com.mooc.tel.FourthTelphone;
+import com.mooc.tel.INet;
 import com.mooc.tel.IPhoto;
 
 public class PhoneTest {
@@ -17,5 +18,8 @@ public class PhoneTest {
         ip.photo();
         ip = new Camera();
         ip.photo();
+        System.out.println("------------------------------------");
+        System.out.println(INet.TEMP);
     }
+
 }
