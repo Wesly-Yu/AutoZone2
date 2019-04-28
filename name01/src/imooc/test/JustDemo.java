@@ -1,4 +1,4 @@
-package Test001;
+package imooc.test;
 
 public class JustDemo {
     public static void main(String[] args) {

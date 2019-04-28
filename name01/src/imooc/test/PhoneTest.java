@@ -1,4 +1,4 @@
-package Test001;
+package imooc.test;
 
 
 import com.mooc.tel.Camera;
