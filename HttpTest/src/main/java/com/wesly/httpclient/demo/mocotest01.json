@@ -1,0 +1,15 @@
+[
+  {
+    "description":"模拟登陆成功后的请求",
+    "request":{
+      "uri":"/gethome",
+      "method":"get"
+      },
+    "response":{
+      "text":"登陆成功",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]
