@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apitest" />
         <module name="HttpTest" />
+        <module name="WebTestPageBuild" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apitest" target="1.5" />
       <module name="HttpTest" target="1.5" />
+      <module name="WebTestPageBuild" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
