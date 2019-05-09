@@ -1,6 +1,8 @@
 package com.cource.server;
 
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
@@ -11,9 +13,11 @@ import java.util.Map;
 import java.util.Objects;
 
 //RestController 表明是被扫描的类
+@Api(value = "/",description = "这是所有的get方法")
 @RestController
 public class WebPageGetMethod {
     @RequestMapping(value = "/getCoookies",method = RequestMethod.GET)
+    @ApiOperation(value = "通过这个方法获取cookies信息",httpMethod = "GET")
     public  String getCookie(HttpServletResponse response){
         //HttpServerLetRequest:装请求信息类
         //HttpServerLetResponse:装响应信息类
@@ -25,6 +29,7 @@ public class WebPageGetMethod {
      * 要求客户端携带cookies访问的get请求
      */
     @RequestMapping(value = "/get/with/cookies",method = RequestMethod.GET)
+    @ApiOperation(value = "要求客户端携带cookies访问的get请求",httpMethod = "GET")
     public String  getWithCookies(HttpServletRequest request){
         Cookie[] cookies = request.getCookies();
         if (Objects.isNull(cookies)){
@@ -45,6 +50,7 @@ public class WebPageGetMethod {
      * 参数为商品名称和价格
      */
     @RequestMapping(value = "/get/with/param",method = RequestMethod.GET)
+    @ApiOperation(value = "要携带参数才能访问的get请求",httpMethod = "GET")
     public Map<String,Integer> getList(@RequestParam Integer start, @RequestParam  Integer end){
         Map<String,Integer> sellList = new HashMap<>();
         sellList.put("yeezh",1700);

@@ -4,14 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-
-@SpringBootApplication
 //表明需要扫描一个类
-@ComponentScan("com.cource.server")
-
-public class Aplication {
+@SpringBootApplication
+@ComponentScan("com.cource")
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(Aplication.class,args);
+        SpringApplication.run(Application.class,args);
 
     }
 }
