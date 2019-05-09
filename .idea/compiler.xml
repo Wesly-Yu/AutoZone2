@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="apitest" target="1.5" />
       <module name="HttpTest" target="1.5" />
-      <module name="WebTestPageBuild" target="1.5" />
+      <module name="WebTestPageBuild" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
