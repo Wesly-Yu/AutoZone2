@@ -10,7 +10,7 @@ spring:
     name: dubbotestapi
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/interfacecource
+    url: jdbc:mysql://localhost:3306/interfacecource
     username: root
     password: test1234567
 
