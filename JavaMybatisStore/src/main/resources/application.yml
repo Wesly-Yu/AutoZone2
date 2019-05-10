@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+logging:
+  path: logs
+  file: apilog.log
+
+spring:
+  application:
+    name: dubbotestapi
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/interfacecource
+    username: root
+    password: test1234567
+
+mybatis:
+  type-aliases-package: com.mybatis.store.config
+  mapper-locations:
+    - mapper/*

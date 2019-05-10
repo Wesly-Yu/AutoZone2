@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0??EN"
+        "http://mybatis.org/dtd/mybatis-2-config.dtd">
+<mapper namespace="com.cource">
+    <select id="getUserCount" resultType="Integer">
+        select count(*) from user;
+    </select>
+</mapper>
