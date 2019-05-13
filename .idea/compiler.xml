@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apitest" />
+        <module name="ApiTestcases" />
         <module name="HttpTest" />
         <module name="JavaMybatisStore" />
         <module name="WebTestPageBuild" />
@@ -14,6 +15,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apitest" target="1.5" />
+      <module name="ApiTestcases" target="1.8" />
+      <module name="APITestNGCase" target="1.5" />
       <module name="HttpTest" target="1.5" />
       <module name="JavaMybatisStore" target="1.5" />
       <module name="WebTestPageBuild" target="8" />
