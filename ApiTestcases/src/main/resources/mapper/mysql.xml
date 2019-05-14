@@ -2,6 +2,54 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="">
-
+<mapper namespace="com.cource">
+    <!--登录接口sql-->
+    <select id="login" parameterType="com.car.model.User" resultType="Integer">
+        select count (*) from user 
+        where  userName=#{userName}
+        and password=#{password}
+    </select>
+    <!--<添加用户接口sql>-->
+    <insert id="addUser" parameterType="com.car.model.User">
+        insert into user (userName,passWord,sex,age,) values (#{userName},#{passWord},#{sex},#{age})
+    </insert>
+    <!--获取用户信息-->
+    <select id="getUserInfo" parameterType="com.car.model.User" resultType="com.car.model.User">
+        select * from user
+        <trim prefix="WHERE" prefixOverrides="and">
+            <if test="null !=id and '' !=id">
+                AND id=#{id}
+            </if>
+            <if test="null !=userName and '' !=userName">
+                AND userName=#{userName}
+            </if>
+            <if test="null !=passWord and '' !=passWord">
+                AND passWord=#{passWord}
+            </if>
+            <if test="null !=age and '' !=age">
+                AND age=#{age}
+            </if>
+            <if test="null !=sex and '' !=sexe">
+                AND sex=#{sex}
+            </if>
+        </trim>
+    </select>
+    <!--更新或者删除用户信息-->
+    <update id="updateUserInfo" parameterType="com.car.model.User">
+        update user
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="null !=userName and '' !=userName">
+                userName=#{userName},
+            </if>
+            <if test="null !=passWord and '' !=passWord">
+                passWord=#{passWord},
+            </if>
+            <if test="null !=sex and '' !=sex">
+                sex=#{sex},
+            </if>
+            <if test="null !=age and '' !=age">
+                age=#{age},
+            </if>
+        </trim>
+    </update>
 </mapper>

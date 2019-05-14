@@ -22,11 +22,7 @@ public class SwaggerConfig {
                 .select()
                 .paths(PathSelectors.regex("/.*"))
                 .build();
-
-
-
     }
-
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("CarUSerManager service API")
                 .contact(new Contact("me","","1633235633@qq.com"))
