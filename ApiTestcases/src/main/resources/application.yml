@@ -15,6 +15,6 @@ spring:
     password: test1234567
 
 mybatis:
-  type-aliases-package: com.mybatis.store.config
+  type-aliases-package: com.car.config
   mapper-locations:
   - mapper/*
