@@ -77,6 +77,7 @@ public class ApiManager {
             return null;
         }
     }
+    //更新后用户信息
     @ApiOperation(value = "更新/删除用户配置信息",httpMethod = "POST")
     @RequestMapping(value = "/updateUserInfo",method = RequestMethod.POST)
     public  int updateUser(HttpServletRequest request,@RequestBody User user){

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #eee;
+}
+.header img {
+    width: 85px;
+    height: 85px;
+    padding-left: 100px;
+    padding-top: 8px;
+}
+.header .logo {
+    float: left;
+}
+.header .nav{
+    float: right;
+}
+.header .nav ul{
+    padding-right: 40px;
+
+}
+.header .nav ul li{
+    float: left;
+    list-style: none;
+    height: 100px;
+    width: 80px;
+    line-height: 100px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #7D7D7D;
+}
