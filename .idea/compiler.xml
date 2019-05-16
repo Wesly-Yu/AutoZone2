@@ -10,6 +10,7 @@
         <module name="ApiTestcases" />
         <module name="HttpTest" />
         <module name="JavaMybatisStore" />
+        <module name="TestCarSeleniumUI" />
         <module name="WebTestPageBuild" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="APITestNGCase" target="1.5" />
       <module name="HttpTest" target="1.5" />
       <module name="JavaMybatisStore" target="1.5" />
+      <module name="TestCarSeleniumUI" target="1.5" />
       <module name="WebTestPageBuild" target="8" />
     </bytecodeTargetLevel>
   </component>
