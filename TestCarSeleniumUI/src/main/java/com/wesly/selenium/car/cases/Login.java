@@ -23,6 +23,7 @@ public class Login {
         driver.manage().window().maximize();
     }
     public void loginCarManagerment() throws InterruptedException {
+        this.InitDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement username = driver.findElement(By.id("name"));
         username.sendKeys("sj_sqr");
@@ -35,6 +36,24 @@ public class Login {
         driver.close();
 
     }
+    public By byStr(String by,String loccator){
+        if(by.equals("id")){
+            return By.id(loccator);
+        }else if (by.equals("name")){
+            return By.name(loccator);
+        }else if (by.equals("className")){
+            return By.className(loccator);
+        }else if (by.equals("xpath")){
+            return By.xpath(loccator);
+        }
+        return By.cssSelector(loccator);
+    }
+    public WebElement element(By by){
+        WebElement ele = driver.findElement(by);
+        return ele;
+    }
+
+
 
     public static void main(String[] args) throws InterruptedException {
         Login loginstep = new  Login();
@@ -42,4 +61,5 @@ public class Login {
         loginstep.loginCarManagerment();
 
     }
+
 }
