@@ -30,4 +30,21 @@ public class localMethod {
             System.out.println("元素不存在");
         }
     }
+    /**
+     * 封装输入
+     * **/
+    public void sendKeys(WebElement element,String value){
+        if (element !=null){
+            element.sendKeys();
+        }else {
+            System.out.println("元素定位不存在");
+        }
+    }
+    /**
+     *
+     * 封装判断是否存在
+     * **/
+    public boolean isDisplay(WebElement element){
+        return element.isDisplayed();
+    }
 }
