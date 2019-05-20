@@ -12,9 +12,9 @@ import java.util.concurrent.TimeUnit;
 
 public class Login {
     public WebDriver driver;
-    ResourceBundle resource = ResourceBundle.getBundle("data");
-    String apply_account = resource.getString("apply_user_account");
-    String password = resource.getString("pass_word");
+//    ResourceBundle resource = ResourceBundle.getBundle("data");
+//    String apply_account = resource.getString("apply_user_account");
+//    String password = resource.getString("pass_word");
     public void InitDriver(){
         System.setProperty("webdriver.chrome,driver","C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe");
         driver = new ChromeDriver();
