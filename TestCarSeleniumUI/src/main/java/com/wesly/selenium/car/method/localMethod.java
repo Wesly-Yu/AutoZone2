@@ -19,4 +19,15 @@ public class localMethod {
         WebElement element = driver.findElement(by);
         return element;
     }
+    /**
+     *
+     * 封装click
+     * **/
+    public  void click(WebElement element){
+        if (element !=null){
+            element.click();
+        }else {
+            System.out.println("元素不存在");
+        }
+    }
 }
