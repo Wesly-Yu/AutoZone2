@@ -1,9 +1,7 @@
 package com.wesly.selenium.car.method;
-
-import net.bytebuddy.dynamic.scaffold.TypeInitializer;
 import org.openqa.selenium.By;
-
 import java.util.ResourceBundle;
+
 
 public class getLocator {
     public static By getLocator(String key){
@@ -23,9 +21,7 @@ public class getLocator {
             return By.cssSelector(locatorValue);
         }else if (locatorType.equals("linkText")){
             return By.linkText(locatorValue);
-        }else if (locatorType.equals("tagName")){
-            return By.tagName(locatorValue);
         }
-        return null;
+        return By.tagName(locatorValue);
     }
 }

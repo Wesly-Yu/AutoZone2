@@ -23,4 +23,16 @@ public class LoginPage extends localMethod {
     public WebElement getPasswordElement(){
         return  element(getLocator.getLocator("pass_word"));
     }
+    /*
+    * µÇÂ¼°´¼ü
+    * **/
+    public WebElement getLoginBtn(){
+        return  element(getLocator.getLocator("loginbtn"));
+    }
+    /*
+    * ¼Ç×¡ÃÜÂë
+    * */
+    public WebElement getAutologinbtn(){
+        return element(getLocator.getLocator("remember-input"));
+    }
 }
