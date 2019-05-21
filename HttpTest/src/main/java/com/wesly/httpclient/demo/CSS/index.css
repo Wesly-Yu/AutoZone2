@@ -38,12 +38,12 @@
     height: 800px;
 }
 
-img{
+.main .top img{
     width: 100%;
     height: 800px;
 }
 
-.topLayer{
+.main .topLayer{
     position: absolute;
     top: 100px;
     left: 0;
@@ -70,7 +70,7 @@ img{
     text-align: center;
     font-family: "Î¢ÈíÑÅºÚ Light";
 }
-.learn-more{
+.main .topLayer-top button{
     width: 200px;
     height: 60px;
     color: #fff;
@@ -82,5 +82,10 @@ img{
     font-size: 14px;
     border-radius: 8px;
     margin-left: 150px;
+
+}
+.main .middle{
+    width: 1000px;
+    margin: 0 auto;
 
 }
