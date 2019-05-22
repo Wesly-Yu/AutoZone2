@@ -141,3 +141,50 @@
     text-align: center;
     padding-top: 10px;
 }
+.main .bottom-two{
+    background-color: #DCDCDC;
+}
+.main .bottom-two .content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main .bottom-two .content .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #7d7d7f;
+    font-family: Î¢ÈíÑÅºÚ;
+    padding-top: 50px;
+}
+.main .bottom-two .content .pic-content dl{
+    float: left;
+    width: 470px;
+    margin: 10px 12px;
+}
+.main .bottom-two .content .pic-content dt img{
+    width: 470px;
+    height: 460px;
+}
+.main .bottom-two .content .pic-content dl .words{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    color: #7d7d7f;
+    padding-bottom: 60px;
+}
+.foot{
+    background-color: #292C35;
+    width: 1900px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Î¢ÈíÑÅºÚ;
+    padding-top: 30px;
+    text-align: center;
+}
+.foot .nab{
+    color: #ffffff;
+}
