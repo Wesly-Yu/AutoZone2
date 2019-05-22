@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ApiTestcases" />
         <module name="HttpTest" />
-        <module name="JavaMybatisStore" />
         <module name="TestCarSeleniumUI" />
         <module name="WebTestPageBuild" />
       </profile>
