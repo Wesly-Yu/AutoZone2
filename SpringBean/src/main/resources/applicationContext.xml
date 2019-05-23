@@ -5,5 +5,7 @@
     <bean id="user" class="com.springs.factorycase.UserServiceimp">
         <property name="user" value="Wesley"/>
     </bean>
-
+    <!--Bean实例化的三种方式-->
+    <!--第一种：无参构造器-->
+    <bean id="bean1" class="com.spring.bean.cases.BeanDemo"/>
 </beans>
