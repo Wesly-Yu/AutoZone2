@@ -11,14 +11,21 @@ import org.springframework.context.ApplicationContextAware;
 public class BeanDemo implements BeanNameAware, ApplicationContextAware {
     String name;
     public BeanDemo(){
-        System.out.println("ÊµÀý»¯Bean1");
+        System.out.println(name);
+    }
+    public void demo2(String name){
+        this.name = name;
+        System.out.println(this.name);
     }
 
     public void setBeanName(String s) {
 
     }
 
+
+
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 
     }
+
 }
