@@ -7,5 +7,7 @@
     </bean>
     <!--Bean实例化的三种方式-->
     <!--第一种：无参构造器-->
-    <bean id="bean1" class="com.spring.bean.cases.BeanDemo"/>
+    <!--id 唯一的，有特殊字符用name,class用于设置一个类的全路径，生成类的实例-->
+    <!--默认为单例模式，加了prototype后为多例模式，scop设置是否为单例和多例-->
+    <bean id="bean1" class="com.spring.bean.cases.BeanDemo" scope="singleton"/>
 </beans>
