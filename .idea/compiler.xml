@@ -19,7 +19,7 @@
       <module name="APITestNGCase" target="1.5" />
       <module name="HttpTest" target="1.7" />
       <module name="JavaMybatisStore" target="1.5" />
-      <module name="normaltest" target="1.5" />
+      <module name="normaltest" target="1.7" />
       <module name="spring_aop" target="1.5" />
       <module name="SpringBean" target="1.5" />
       <module name="TestCarSeleniumUI" target="1.5" />
