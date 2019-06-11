@@ -21,7 +21,7 @@ public class MyHttpClient {
         //存放结果
         String result;
         String path;
-        HttpGet get = new HttpGet("http://car.schouqin.gov.cn:8085/index");
+        HttpGet get = new HttpGet("http://www.baidu.com");
         //client 用于执行get方法
         HttpClient client = new DefaultHttpClient();
         HttpResponse response = client.execute(get);
