@@ -10,6 +10,7 @@
         <module name="normaltest" />
         <module name="SpringBean" />
         <module name="TestCarSeleniumUI" />
+        <module name="tomcatbuildloginpagecreate" />
         <module name="WebTestPageBuild" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="spring_aop" target="1.5" />
       <module name="SpringBean" target="1.5" />
       <module name="TestCarSeleniumUI" target="1.5" />
+      <module name="tomcatbuildloginpagecreate" target="1.7" />
       <module name="WebTestPageBuild" target="1.7" />
     </bytecodeTargetLevel>
   </component>

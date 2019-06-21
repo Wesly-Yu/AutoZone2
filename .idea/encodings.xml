@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
-    <file url="file://$PROJECT_DIR$/ApiTestcases" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ApiTestcases/src/main/resources/logback.xml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/ApiTestcases/src/main/resources/mybatis.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/tomcatbuildloginpagecreate" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
