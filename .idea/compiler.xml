@@ -10,7 +10,6 @@
         <module name="normaltest" />
         <module name="SpringBean" />
         <module name="TestCarSeleniumUI" />
-        <module name="tomcatbuildloginpagecreate" />
         <module name="WebTestPageBuild" />
       </profile>
     </annotationProcessing>
