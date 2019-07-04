@@ -38,7 +38,7 @@ public class PostMethod {
         result = EntityUtils.toString(response.getEntity(),Charset.forName("UTF-8"));
         JSONObject resultjson = new JSONObject(result);
         //获取响应结果
-        resultjson.get("huhansan");
+        resultjson.get("hashmap_reduce");
         //处理结果
     }
 }

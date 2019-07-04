@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/HttpTest/HttpTest.iml" filepath="$PROJECT_DIR$/HttpTest/HttpTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBean/SpringBean.iml" filepath="$PROJECT_DIR$/SpringBean/SpringBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestCarSeleniumUI/TestCarSeleniumUI.iml" filepath="$PROJECT_DIR$/TestCarSeleniumUI/TestCarSeleniumUI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebTestPageBuild.iml" filepath="$PROJECT_DIR$/WebTestPageBuild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebTestPageBuild/WebTestPageBuild.iml" filepath="$PROJECT_DIR$/WebTestPageBuild/WebTestPageBuild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebTestPageBuild (1).iml" filepath="$PROJECT_DIR$/WebTestPageBuild (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/normaltest/normaltest.iml" filepath="$PROJECT_DIR$/normaltest/normaltest.iml" />
     </modules>
   </component>
