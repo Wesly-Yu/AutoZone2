@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpTest/HttpTest.iml" filepath="$PROJECT_DIR$/HttpTest/HttpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBean/SpringBean.iml" filepath="$PROJECT_DIR$/SpringBean/SpringBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestCarSeleniumUI/TestCarSeleniumUI.iml" filepath="$PROJECT_DIR$/TestCarSeleniumUI/TestCarSeleniumUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebTestPageBuild.iml" filepath="$PROJECT_DIR$/WebTestPageBuild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/normaltest/normaltest.iml" filepath="$PROJECT_DIR$/normaltest/normaltest.iml" />
+    </modules>
+  </component>
+</project>

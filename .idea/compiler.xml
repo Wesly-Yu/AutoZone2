@@ -17,6 +17,7 @@
       <module name="apitest" target="1.5" />
       <module name="ApiTestcases" target="8" />
       <module name="APITestNGCase" target="1.5" />
+      <module name="AutoZone2" target="8" />
       <module name="HttpTest" target="1.7" />
       <module name="JavaMybatisStore" target="1.5" />
       <module name="normaltest" target="1.7" />
@@ -24,7 +25,8 @@
       <module name="SpringBean" target="1.5" />
       <module name="TestCarSeleniumUI" target="1.5" />
       <module name="tomcatbuildloginpagecreate" target="1.7" />
-      <module name="WebTestPageBuild" target="1.7" />
+      <module name="WebTestPageBuild" target="8" />
+      <module name="WebTestPageBuild (1)" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
