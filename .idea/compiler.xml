@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="BuildForum" />
         <module name="HttpTest" />
-        <module name="normaltest" />
         <module name="SpringBean" />
-        <module name="TestCarSeleniumUI" />
         <module name="WebTestPageBuild" />
-        <module name="WebTestPageBuild (1)" />
+        <module name="TestCarSeleniumUI" />
+        <module name="normaltest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +19,7 @@
       <module name="ApiTestcases" target="8" />
       <module name="APITestNGCase" target="1.5" />
       <module name="AutoZone2" target="8" />
+      <module name="BuildForum" target="8" />
       <module name="HttpTest" target="1.7" />
       <module name="JavaMybatisStore" target="1.5" />
       <module name="normaltest" target="1.7" />
