@@ -7,10 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/HttpTest/pom.xml" />
-        <option value="$PROJECT_DIR$/normaltest/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBean/pom.xml" />
-        <option value="$PROJECT_DIR$/TestCarSeleniumUI/pom.xml" />
-        <option value="$PROJECT_DIR$/WebTestPageBuild/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>

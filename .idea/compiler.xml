@@ -8,10 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BuildForum" />
         <module name="HttpTest" />
-        <module name="SpringBean" />
-        <module name="WebTestPageBuild" />
-        <module name="TestCarSeleniumUI" />
-        <module name="normaltest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
