@@ -249,6 +249,12 @@ a {
 a:hover {
   opacity: 1;
 }
+    #login_table{
+        margin: auto;
+    }
+    #github-link{
+        padding-left: 20px;
+    }
 </style>
 </head>
 <body>
@@ -275,12 +281,12 @@ a:hover {
                         {% endfor %}
                     </div>
                     {% csrf_token %}
-                    <div>
-                        <table>
+                    <div class="link_url" id="other_login">
+                        <table id="login_table">
                             <tbody>
                             <tr>
                                 <th>快捷登陆:</th>
-                                <td><a href="#"><img src="static_sources/github.jpg" class="github"></a></td>
+                                <td id="github-link"><a href="#"><img src="/static/imgs/github.jpg" class="github"></a></td>
                             </tr>
                             </tbody>
                         </table>
