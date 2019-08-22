@@ -2,6 +2,7 @@ package com.github.authorite.provider;
 
 
 import com.github.authorite.dto.AccessTokenDTO;
+import com.github.authorite.dto.GithubUser;
 import jdk.nashorn.internal.objects.annotations.Setter;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
@@ -24,6 +25,14 @@ public class GithubProvider {
             e.printStackTrace();
         }
         return null;
+    }
+    public GithubUser getUser(String accessToken) throws IOException {
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder()
+            .url("https://api.github.com/user?access_token="+accessToken)
+            .build();
+        Response response = client.newCall(request).execute();
+
     }
 }
 

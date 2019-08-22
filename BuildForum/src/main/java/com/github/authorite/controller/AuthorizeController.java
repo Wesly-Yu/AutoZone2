@@ -1,8 +1,4 @@
 package com.github.authorite.controller;
-
-
-
-
 import com.github.authorite.dto.AccessTokenDTO;
 import com.github.authorite.provider.GithubProvider;
 import org.springframework.beans.factory.annotation.Autowired;
